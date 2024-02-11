@@ -1,0 +1,24 @@
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+}
+.description {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.avatar {
+  width: 150px;
+}
+.stats {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+.stats li:not(:last-child) {
+  margin-right: 20px;
+}
